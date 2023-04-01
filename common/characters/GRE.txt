@@ -8,7 +8,7 @@ characters={
 		}
 		country_leader={
 			ideology=centrism
-			# traits={ defender_of_europe }
+			traits={ defender_of_europe }
 			expire="1965.1.1.1"
 			id=-1
 		}
