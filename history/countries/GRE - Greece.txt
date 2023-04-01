@@ -108,6 +108,7 @@ if = {
 			GRE_schachtplan
 			GRE_political_instability
 			GRE_agrarian_society
+			GRE_bulwark_against_islam
 		}
 
 		set_variable = { var = GRE_debt_to_the_ifc_britain_var value = 10 }
@@ -190,11 +191,11 @@ set_convoys = 10
 		}
 		
 		create_country_leader = {
-			name = "Themistoklis Sofoulis"
+			name = "King Themistoklis IV"
 			desc = "POLITICS_THEMISTOKLIS_SOFOULIS_DESC"
 			picture = GFX_portrait_gre_themistoklis_sofoulis
 			expire = "1965.1.1"
-			ideology = liberalism
+			ideology = despotism
 			traits = {
 				professional_crisis_solver
 			}
@@ -319,10 +320,10 @@ set_politics = {
 	elections_allowed = yes # none after offset 1
 }
 set_popularities = {
-	democratic = 43
-	fascism = 2
-	communism = 17
-	neutrality = 38
+	democratic = 20
+	fascism = 20
+	communism = 0
+	neutrality = 60
 }
 
 set_stability = 0.72
@@ -332,7 +333,7 @@ set_convoys = 80
 
 if = { 
 	limit = { has_dlc = "Battle for the Bosporus" }
-	recruit_character = GRE_konstantinos_demertzis
+	recruit_character = GRE_king_konstantinos
 	recruit_character = GRE_nikos_zachariadis
 	recruit_character = GRE_george_mercouris
 	recruit_character = GRE_alexandros_papagos
