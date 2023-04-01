@@ -1,4 +1,5 @@
 ﻿capital = 679
+puppet = EGY
 
 if = {
 	limit = {
