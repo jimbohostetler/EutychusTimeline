@@ -58,8 +58,12 @@ SPR = {
 	color_ui = rgb { 255 255 122 }
 }
 ITA = {
-	color = rgb { 67 127 63 }
-	color_ui = rgb { 87 165 82 }
+	color = rgb { 210 0 0 }
+	color_ui = rgb { 210 0 0 }
+}
+TUN = {
+	color = rgb { 190 0 0 }
+	color_ui = rgb { 190 0 0 }
 }
 ROM = {
 	color = rgb { 215 196 72 }
@@ -78,8 +82,8 @@ TUR = {
 	color_ui = rgb { 222 247 198 }
 }
 GRE = {
-	color = rgb { 180 0 180 }
-	color_ui = rgb { 180 0 180 }
+	color = rgb { 180 0 170 }
+	color_ui = rgb { 180 0 170 }
 }
 ALB = {
 	color = rgb { 149 45 102 }
@@ -329,13 +333,13 @@ XSM = {
 }
 
 LBA = {
-	color = rgb { 200 180 90 }
-	color_ui = rgb { 200 180 90 }
+	color = rgb { 151 170 132 }
+	color_ui = rgb { 202 227 178 }
 }
 
 EGY = {
-	color = rgb { 161 180 142 }
-	color_ui = rgb { 212 237 188 }
+	color = rgb { 151 170 132 }
+	color_ui = rgb { 202 227 178 }
 }
 
 PAL = {
